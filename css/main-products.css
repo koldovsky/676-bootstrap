@@ -1,0 +1,25 @@
+.main-products .product-card {
+    border: 1px solid var(--main-text-color);
+    padding: 5px;
+}
+
+@media (min-width: 640px) {
+    .main-products__list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 5px;
+    }
+}
+
+@media (min-width: 840px) {
+    .main-products__list {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (min-width: 980px) {
+    .main-products__list {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
