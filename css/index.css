@@ -1,5 +1,4 @@
-@import "common.css";
-@import "controls.css";
-@import "header.css";
-@import "burger-icon.css";
-@import "main-products.css";
+.btn-info {
+    background-color: #34db3c;
+    border-color: #34db58;
+}
